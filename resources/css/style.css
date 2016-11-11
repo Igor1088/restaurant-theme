@@ -203,3 +203,12 @@ header {
 .main-nav li a:active {
 	border-bottom: 2px solid #EF4836;
 }
+
+/* ------------------------------ */
+/* ABOUT */
+/* ------------------------------ */
+
+.chef {
+	width: 100%;
+	border-radius: 4px;
+}
