@@ -212,3 +212,40 @@ header {
 	width: 100%;
 	border-radius: 4px;
 }
+
+/* ------------------------------ */
+/* MENU */
+/* ------------------------------ */
+
+.section-menu {
+	background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/menu-background.jpg);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/menu-background.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+
+}
+
+.section-menu h2 {
+	color: #fff;
+}
+
+.menu-item {
+	color: #fff;
+	margin-bottom: 20px;
+	position: relative;
+}
+
+.menu-item span {
+	position: absolute;
+	top: 35px;
+	right: 90px;
+}
+
+.menu-item img {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	vertical-align: middle;
+	margin-right: 25px;
+}
