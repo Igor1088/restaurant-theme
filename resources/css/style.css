@@ -249,3 +249,41 @@ header {
 	vertical-align: middle;
 	margin-right: 25px;
 }
+
+/* ------------------------------ */
+/* TESTIMONIALS */
+/* ------------------------------ */
+
+.section-testimonials {
+	background-color: #f4f4f4;
+}
+
+blockquote {
+	padding: 2%;
+	font-style: italic;
+	line-height: 145%;
+	margin-top: 37px;
+	position: relative;
+}
+
+blockquote:before {
+	content: "\201c";
+	font-size: 500%;
+	display: block;
+	position: absolute;
+	top: -4px;
+	left: -4px;
+}
+
+cite {
+	font-size: 90%;
+	display: block;
+	margin-top: 20px;
+}
+
+cite img {
+	height: 80px;
+	border-radius: 50%;
+	margin-right: 10px;
+	vertical-align: middle;
+}
