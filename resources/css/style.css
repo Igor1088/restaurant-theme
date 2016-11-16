@@ -287,3 +287,47 @@ cite img {
 	margin-right: 10px;
 	vertical-align: middle;
 }
+
+/* ------------------------------ */
+/* GALLERY */
+/* ------------------------------ */
+
+.section-gallery {
+	padding: 0;
+}
+
+.gallery {
+	list-style: none;
+	width: 100%;
+}
+
+.gallery li {
+	display: block;
+	float: left;
+	width: 25%;
+}
+
+.photo {
+	width: 100%;
+	margin: 0;
+	overflow: hidden;
+	background-color: #000;
+}
+
+.photo img {
+	width: 100%;
+	height: auto;
+	opacity: 0.7;
+	-webkit-transform: scale(1.15);
+	        transform: scale(1.15);
+	-webkit-transition: opacity 0.6s, -webkit-transform 0.6s;
+	transition: opacity 0.6s, -webkit-transform 0.6s;
+	transition: transform 0.6s, opacity 0.6s;
+	transition: transform 0.6s, opacity 0.6s, -webkit-transform 0.6s;
+}
+
+.photo img:hover {
+	opacity: 1;
+	-webkit-transform: scale(1.04);
+	        transform: scale(1.04);
+}
