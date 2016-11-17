@@ -331,3 +331,57 @@ cite img {
 	-webkit-transform: scale(1.04);
 	        transform: scale(1.04);
 }
+
+/* ------------------------------ */
+/* RESERVATION FORM */
+/* ------------------------------ */
+
+input[type=text],
+input[type=email],
+textarea {
+	display: block;
+	width: 80%;
+	padding: 10px;
+	margin-bottom: 10px;
+	border: none;
+	font-size: 90%;
+	border-bottom: 2px solid #c9c9c9;
+	-webkit-transition: border 0.3s;
+	transition: border 0.3s;
+	color: #555;
+	background-color: #f4f4f4;
+}
+input[type=text]:focus,
+input[type=email]:focus,
+textarea:focus {
+	border-bottom: 2px solid #EF4836;
+}
+
+input[type=submit] {
+	margin-left: 22%;
+}
+
+textarea {
+	height: 120px;
+	margin-bottom: 25px;
+}
+
+*:focus {outline: none;}
+
+.hours {
+	width: 80%;
+	margin-left: 10%;
+	letter-spacing: 1px;
+	word-spacing: 2px;
+}
+
+.hours ul {
+	list-style: none;
+	width: 100%;
+	font-size: 80%;
+}
+
+.hours ul li {
+	margin-bottom: 20px;
+	margin-left: 45px;
+}
