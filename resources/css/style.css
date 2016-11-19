@@ -435,3 +435,96 @@ textarea {
 .contact-info {
 	margin-bottom: 15px;
 }
+
+/* ------------------------------ */
+/* FOOTER */
+/* ------------------------------ */
+
+footer {
+	background-color: #22313F;
+	padding: 30px 25px 15px 25px;
+	font-size: 85%;
+}
+
+.footer-nav {
+	list-style: none;
+	float: left;
+}
+
+.social-links {
+	float: right;
+}
+
+.social-links li:last-child {
+	margin-right: 0;
+}
+
+.footer-nav li,
+.social-links li {
+	display: inline-block;
+	margin-right: 15px;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social-links li a:link,
+.social-links li a:visited {
+	text-decoration: none;
+	color: #BDC3C7;
+	-webkit-transition: color 0.2s;
+	transition: color 0.2s;
+}
+
+.social-links li a:link,
+.social-links li a:visited {
+	font-size: 120%;
+}
+
+.footer-nav li a:hover,
+.footer-nav li a:active {
+	color: #EF4836;
+}
+
+.fa-facebook,
+.fa-twitter,
+.fa-instagram,
+.fa-linkedin {
+	-webkit-transition: color 0.2s;
+	transition: color 0.2s;
+}
+
+.fa-facebook:hover {
+	color: #3b5998;
+}
+
+.fa-instagram:hover {
+	color: #517fa4;
+}
+
+.fa-twitter:hover {
+	color: #00aced;
+}
+
+.fa-linkedin:hover {
+	color: #007bb5;
+}
+
+footer p {
+	color: #BDC3C7;
+	margin-top: 15px;
+	text-align: center;
+}
+
+.author:link,
+.author:visited {
+	text-decoration: none;
+	color: #BDC3C7;
+	-webkit-transition: color 0.2s;
+	transition: color 0.2s;
+}
+
+.author:hover,
+.author:active {
+	text-decoration: none;
+	color: #ECF0F1;
+}
