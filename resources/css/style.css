@@ -176,6 +176,7 @@ header {
 
 }
 
+/* Main nav */
 .main-nav {
 	text-align: center;
 	list-style: none;
@@ -202,6 +203,36 @@ header {
 .main-nav li a:hover,
 .main-nav li a:active {
 	border-bottom: 2px solid #EF4836;
+}
+
+/* Sticky nav */
+.sticky {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.90); 
+	z-index: 9999;
+}
+
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited {
+	color: #fff;
+	padding: 16px 0;
+	transition: color 0.3s;
+}
+
+.sticky .main-nav li a:hover,
+.sticky .main-nav li a:active {
+	color: #EF4836;
+	border-bottom: 2px solid transparent;
+}
+
+.sticky .main-nav {
+	text-align: center;
+	list-style: none;
+	margin-top: 20px;
+	margin-bottom: 15px;
 }
 
 /* ------------------------------ */
