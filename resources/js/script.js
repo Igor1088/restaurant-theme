@@ -1,5 +1,14 @@
 $(document).ready(function(){
 	
+	/* Scroll on buttons */
+    $('.js--scroll-to-reservation').click(function(){
+        $('html, body').animate({scrollTop: $('.js--section-reservation').offset().top}, 1000);
+    });
+    
+    $('.js--scroll-to-menu').click(function(){
+        $('html, body').animate({scrollTop: $('.js--section-menu').offset().top}, 1000);
+    });
+	
 	$('.js--section-about').waypoint(function(direction) {
       if(direction =="down") {
         $('nav').addClass('sticky');
